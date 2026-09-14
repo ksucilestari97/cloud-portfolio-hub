@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Portfolio Hub - Portal Utama</title>
+    
+    <!-- ATURAN WAJIB KEAMANAN & SEO -->
+    <meta name="robots" content="noindex, nofollow">
+    
+    <!-- CLOUD ASSET: TAILWIND CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen font-sans">
+
+    <!-- CONTAINER UTAMA -->
+    <div class="max-w-4xl mx-auto px-4 py-8">
+        
+        <!-- HEADER PORTAL -->
+        <header class="border-b border-slate-700 pb-6 mb-8">
+            <div class="flex items-center justify-between">
+                <div>
+                    <h1 class="text-3xl font-bold text-sky-400">Cloud Portfolio Hub</h1>
+                    <p class="text-slate-400 text-sm mt-1">Mata Kuliah Cloud Computing (2 SKS)</p>
+                </div>
+                <!-- Indikator Live Status -->
+                <div class="flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 px-3 py-1.5 rounded-full text-xs font-semibold">
+                    <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                    Netlify PaaS Active
+                </div>
+            </div>
+            
+            <!-- BIODATA MAHASISWA -->
+            <div class="mt-6 bg-slate-800/60 p-4 rounded-lg border border-slate-700/50 grid grid-cols-2 md:grid-cols-3 gap-4 text-sm">
+                <div>
+                    <span class="text-slate-500 block text-xs">NAMA MAHASISWA</span>
+                    <span class="font-medium text-slate-200">[Isi Nama Lengkap Anda]</span>
+                </div>
+                <div>
+                    <span class="text-slate-500 block text-xs">NIM</span>
+                    <span class="font-medium text-slate-200">[Isi NIM Anda]</span>
+                </div>
+                <div>
+                    <span class="text-slate-500 block text-xs">PROGRAM STUDI</span>
+                    <span class="font-medium text-slate-200">[Informatika / SI / Sains Data]</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- NAVIGASI MODULE HUB (5 FILE HTML) -->
+        <main>
+            <h2 class="text-xl font-semibold mb-4 text-slate-200">Daftar Modul & Fitur Sistem</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                <!-- CARD 1: INDEX / PORTAL -->
+                <div class="bg-slate-800 p-5 rounded-xl border border-sky-500/40">
+                    <div class="text-sky-400 text-xs font-bold tracking-wider mb-1">MODULE 01</div>
+                    <h3 class="font-bold text-lg text-white mb-2">Portal Hub Utama</h3>
+                    <p class="text-slate-400 text-sm mb-4">Halaman murni navigasi dan identitas awal pendeployan PaaS.</p>
+                    <a href="index.html" class="text-sky-400 text-sm font-semibold hover:underline inline-flex items-center gap-1">Buka Modul &rarr;</a>
+                </div>
+
+                <!-- CARD 2: DASHBOARD SISTEM -->
+                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700 hover:border-slate-600 transition">
+                    <div class="text-slate-500 text-xs font-bold tracking-wider mb-1">MODULE 02</div>
+                    <h3 class="font-bold text-lg text-white mb-2">Dashboard Sistem</h3>
+                    <p class="text-slate-400 text-sm mb-4">Ringkasan eksekutif, statistik utama, dan kartu informasi tema.</p>
+                    <a href="dashboard.html" class="text-slate-400 text-sm font-semibold hover:underline inline-flex items-center gap-1">Buka Modul &rarr;</a>
+                </div>
+
+                <!-- CARD 3: FITUR SISTEM -->
+                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700 hover:border-slate-600 transition">
+                    <div class="text-slate-500 text-xs font-bold tracking-wider mb-1">MODULE 03</div>
+                    <h3 class="font-bold text-lg text-white mb-2">Fitur Interaktif</h3>
+                    <p class="text-slate-400 text-sm mb-4">Simulasi modul kerja utama, form interaktif, dan visualisasi.</p>
+                    <a href="fitur-sistem.html" class="text-slate-400 text-sm font-semibold hover:underline inline-flex items-center gap-1">Buka Modul &rarr;</a>
+                </div>
+
+                <!-- CARD 4: DETAIL LAYANAN -->
+                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700 hover:border-slate-600 transition">
+                    <div class="text-slate-500 text-xs font-bold tracking-wider mb-1">MODULE 04</div>
+                    <h3 class="font-bold text-lg text-white mb-2">Detail Layanan / Katalog</h3>
+                    <p class="text-slate-400 text-sm mb-4">Katalog produk, rincian materi, atau dokumentasi API data.</p>
+                    <a href="detail-layanan.html" class="text-slate-400 text-sm font-semibold hover:underline inline-flex items-center gap-1">Buka Modul &rarr;</a>
+                </div>
+
+                <!-- CARD 5: LAPORAN DATA -->
+                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700 hover:border-slate-600 transition md:col-span-2">
+                    <div class="text-slate-500 text-xs font-bold tracking-wider mb-1">MODULE 05</div>
+                    <h3 class="font-bold text-lg text-white mb-2">Laporan Data & Rekapitulasi</h3>
+                    <p class="text-slate-400 text-sm mb-4">Tabel riwayat transaksi, log aktivitas sistem, dan rekapitulasi data mentah.</p>
+                    <a href="laporan-data.html" class="text-slate-400 text-sm font-semibold hover:underline inline-flex items-center gap-1">Buka Modul &rarr;</a>
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+</body>
+</html>
